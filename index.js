@@ -19,7 +19,7 @@ app.use("/user",userRoutes);
 //const username = encodeURIComponent();
 //const password = encodeURIComponent();
 
-app.get('/',(res,req)=>{
+app.get('/',(req,res)=>{
   res.send('APP IS RUNNING.')
 })
 
