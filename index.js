@@ -19,9 +19,9 @@ app.use("/user",userRoutes);
 //const username = encodeURIComponent();
 //const password = encodeURIComponent();
 
-app.get('/',(req,res)=>{
-  res.send('APP IS RUNNING.')
-})
+// app.get('/',(req,res)=>{
+//   res.send('APP IS RUNNING.')
+// })
 
 const PORT = process.env.PORT || 5000;
 
